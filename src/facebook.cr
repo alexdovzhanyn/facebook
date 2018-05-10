@@ -1,6 +1,20 @@
 require "./facebook/*"
+require "http/client"
+require "http/params"
 
-# TODO: Write documentation for `Facebook`
 module Facebook
-  # TODO: Put your code here
+  API_URL = "https://graph.facebook.com/v3.0"
+
+  class API
+    property access_token
+
+    def initialize(access_token : String = "")
+      @access_token = access_token
+    end
+
+    def get_node(node_id : Number)
+      params = HTTP::Params.encode({"access_token" => @access_token})
+      HTTP::Client.get "#{API_URL}/#{node_id}?#{params}"
+    end
+  end
 end

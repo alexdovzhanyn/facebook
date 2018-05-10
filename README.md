@@ -18,7 +18,14 @@ dependencies:
 require "facebook"
 ```
 
-TODO: Write usage instructions here
+### Get node by ID
+
+```crystal
+require "facebook"
+
+facebook = Facebook::Api.new(ACCESS_TOKEN)
+facebook.get_node(820882001277849) #=> {"name":"Coca-Cola","id":"820882001277849"}
+```
 
 ## Development
 
