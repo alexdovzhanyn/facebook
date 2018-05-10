@@ -1,4 +1,5 @@
-# facebook
+# Facebook Graph API
+[![Docs](https://img.shields.io/badge/docs-available-brightgreen.svg)](<LINK-TO-YOUR-DOCUMENTATION>)
 
 A library for accessing the Facebook Graph API
 
