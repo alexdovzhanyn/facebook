@@ -1,5 +1,7 @@
 name: facebook
 version: 0.1.0
+description: |
+  A library for connecting to the Facebook Graph API to access pages, users, posts, groups, events and more.
 
 authors:
   -  <dovzhanyn.alex@gmail.com>
