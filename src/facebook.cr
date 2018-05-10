@@ -15,7 +15,7 @@ module Facebook
     # Fetches a node (page/user/etc) from facebook using its *node_id*.
     #
     # ```
-    # Facebook::Api.new(ACCESS_TOKEN).get_node(820882001277849) #=> {"name":"Coca-Cola","id":"820882001277849"}
+    # Facebook::Api.new(ACCESS_TOKEN).get_node(820882001277849) # => {"name":"Coca-Cola","id":"820882001277849"}
     # ```
     def get_node(node_id : Number)
       params = HTTP::Params.encode({"access_token" => @access_token})
