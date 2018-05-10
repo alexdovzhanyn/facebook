@@ -1,5 +1,6 @@
 # Facebook Graph API
-[![Docs](https://img.shields.io/badge/docs-available-brightgreen.svg)](<LINK-TO-YOUR-DOCUMENTATION>)
+[![Docs](https://img.shields.io/badge/docs-available-brightgreen.svg)](https://alexdovzhanyn.github.io/facebook/)
+[![Build Status](https://travis-ci.org/alexdovzhanyn/facebook.svg?branch=master)](https://travis-ci.org/alexdovzhanyn/facebook)
 
 A library for accessing the Facebook Graph API
 
