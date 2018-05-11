@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta id="repository-name" content="github.com/alexdovzhanyn/facebook">
+  <link href="../css/style.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="../js/doc.js"></script>
+  <title>Facebook::API - github.com/alexdovzhanyn/facebook</title>
+</head>
+<body>
+
+<div id="types-list">
+  <div id="search-box">
+    <input type="search" id="search-input" placeholder="Search...">
+  </div>
+
+  <ul>
+    <li><a href="../index.html">README</a></li>
+  </ul>
+
+  <ul>
+  
+  <li class="parent open current" data-id="github.com/alexdovzhanyn/facebook/Facebook" data-name="facebook">
+      <a href="../Facebook.html">Facebook</a>
+      
+        <ul>
+  
+  <li class=" current" data-id="github.com/alexdovzhanyn/facebook/Facebook/API" data-name="facebook::api">
+      <a href="../Facebook/API.html">API</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="github.com/alexdovzhanyn/facebook/Request" data-name="request">
+      <a href="../Request.html">Request</a>
+      
+    </li>
+  
+</ul>
+
+</div>
+
+<div id="main-content">
+<h1 class="type-name">
+
+  <span class="kind">class</span> Facebook::API
+
+</h1>
+
+
+  <ul class="superclass-hierarchy"><li class="superclass"><a href="../Facebook/API.html">Facebook::API</a></li><li class="superclass">Reference</li><li class="superclass">Object</li></ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2>Defined in:</h2>
+  
+    
+      <a href="https://github.com/alexdovzhanyn/facebook/blob/4a59cd536aaba95413eae1d7f2fe9088eed91116/src/facebook.cr#L7" target="_blank">facebook.cr</a>
+    
+    <br/>
+  
+
+
+
+
+
+  <h2>Constructors</h2>
+  <ul class="list-summary">
+    
+      <li class="entry-summary">
+        <a href="#new%28access_token%3AString%3D%26quot%3B%26quot%3B%29-class-method" class="signature"><strong>.new</strong>(access_token : String = <span class="s">&quot;&quot;</span>)</a>
+        
+      </li>
+    
+  </ul>
+
+
+
+
+
+  <h2>Instance Method Summary</h2>
+  <ul class="list-summary">
+    
+      <li class="entry-summary">
+        <a href="#access_token%3AString-instance-method" class="signature"><strong>#access_token</strong> : String</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#access_token%3D%28access_token%29-instance-method" class="signature"><strong>#access_token=</strong>(access_token)</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#get_node%28node_id%3ANumber%29-instance-method" class="signature"><strong>#get_node</strong>(node_id : Number)</a>
+        
+          <div class="summary"><p>Fetches a node (page/user/etc) from facebook using its <em>node_id</em>.</p></div>
+        
+      </li>
+    
+  </ul>
+
+
+
+
+
+<div class="methods-inherited">
+  
+    
+
+
+    
+
+
+    
+
+
+  
+    
+
+
+    
+
+
+    
+
+
+  
+</div>
+
+
+  <h2>Constructor Detail</h2>
+  
+    <div class="entry-detail" id="new(access_token:String=&amp;quot;&amp;quot;)-class-method">
+      <div class="signature">
+        
+        def self.<strong>new</strong>(access_token : String = <span class="s">&quot;&quot;</span>)
+
+        <a class="method-permalink" href="#new%28access_token%3AString%3D%26quot%3B%26quot%3B%29-class-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/alexdovzhanyn/facebook/blob/4a59cd536aaba95413eae1d7f2fe9088eed91116/src/facebook.cr#L10" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+
+
+
+
+
+  <h2>Instance Method Detail</h2>
+  
+    <div class="entry-detail" id="access_token:String-instance-method">
+      <div class="signature">
+        
+        def <strong>access_token</strong> : String
+
+        <a class="method-permalink" href="#access_token%3AString-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/alexdovzhanyn/facebook/blob/4a59cd536aaba95413eae1d7f2fe9088eed91116/src/facebook.cr#L8" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="access_token=(access_token)-instance-method">
+      <div class="signature">
+        
+        def <strong>access_token=</strong>(access_token)
+
+        <a class="method-permalink" href="#access_token%3D%28access_token%29-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/alexdovzhanyn/facebook/blob/4a59cd536aaba95413eae1d7f2fe9088eed91116/src/facebook.cr#L8" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="get_node(node_id:Number)-instance-method">
+      <div class="signature">
+        
+        def <strong>get_node</strong>(node_id : Number)
+
+        <a class="method-permalink" href="#get_node%28node_id%3ANumber%29-instance-method">#</a>
+      </div>
+      
+        <div class="doc"><p>Fetches a node (page/user/etc) from facebook using its <em>node_id</em>.</p>
+
+<pre><code><span class="t">Facebook</span><span class="t">::</span><span class="t">Api</span>.<span class="k">new</span>(<span class="t">ACCESS_TOKEN</span>).get_node(<span class="n">820882001277849</span>) <span class="c"># =&gt; {&quot;name&quot;:&quot;Coca-Cola&quot;,&quot;id&quot;:&quot;820882001277849&quot;}</span></code></pre></div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/alexdovzhanyn/facebook/blob/4a59cd536aaba95413eae1d7f2fe9088eed91116/src/facebook.cr#L24" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+
+
+
+
+</div>
+
+</body>
+</html>
